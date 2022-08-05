@@ -22,17 +22,17 @@ import Home from "./pages/Home"
 import Signin from "./pages/Signin"
 import Signup from "./pages/Signup"
 import PageNotFound from "./pages/PageNotFound"
+import { UserContext  } from "./context/UserContext";
 import Footer  from "./layout/Footer";
 import Header from "./layout/Header";
 
 
 //context
-import { UserContext  } from "./context/UserContext";
 
 
 
 import firebaseConfig from "./Config/FirebaseConfig"
-
+// import { initializeApp } from 'firebase/compat/app';
 
 
 //init firebase
