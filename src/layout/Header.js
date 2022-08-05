@@ -59,7 +59,7 @@ const Header = () => {
                     <NavItem>
             <NavLink
                     tag={Link}
-                    to="/"
+                    to="/SignIn"
                     
                     className="text-white text-decoration-none">
                     SignIn 
@@ -68,7 +68,7 @@ const Header = () => {
             <NavItem>
             <NavLink
                     tag={Link}
-                    to="/"
+                    to="/SignUp"
                     
                     className="text-white text-decoration-none">
                     SignUp 
